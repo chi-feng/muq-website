@@ -50,6 +50,7 @@ $tabs = array(
   array('Home', '/home'),
   array('Examples', '/examples'),
   array('Documentation', '/documentation'),
+  array('About','/about')
 );
 
 foreach ($tabs as $tab) {
