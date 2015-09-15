@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 IndexIgnore */*
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !(admin|js|css) [NC]
+RewriteCond %{REQUEST_URI} !(admin|git|js|css) [NC]
 RewriteCond %{REQUEST_URI} !\.(gif|jpg|png)$
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
