@@ -1,0 +1,331 @@
+[
+  {
+    "id": "1",
+    "name": "Youssef Marzouk",
+    "type": "pi",
+    "email": "ymarz",
+    "url": "youssef-marzouk",
+    "bio": "Youssef is the Class of 1942 Associate Professor of Aeronautics and Astronautics at MIT. He received his SB (1997), SM (1999), and PhD (2004) degrees in mechanical engineering from MIT. Afterwards, he spent four years at Sandia National Laboratories in Livermore, California\u2014first as a Truman postdoctoral fellow and then as a senior member of the technical staff\u2014before returning to MIT and joining the faculty in 2009. He is a recipient of the Hertz Foundation Doctoral Thesis Prize (2004), the DOE Early Career Research Award (2010), and the MIT Junior Bose Award for Excellence in Teaching (2012). Youssef is also an avid coffee drinker and classical pianist."
+  },
+  {
+    "id": 2,
+    "name": "Florian Augustin",
+    "type": "postdoc",
+    "email": "fmaugust",
+    "url": "florian-augustin",
+    "bio": "I am interested in uncertainty quantification with polynomial chaos. My research includes the convergence analysis of numerical algorithms based on the stochastic Galerkin approach as well as structure preserving transformations for the Galerkin projected system. Moreover, I am interested in compressive sensing and robust optimization based on derivative free methods. I received my doctoral degree in mathematics from the TUM (Munich, Germany) in 2011."
+  },
+  {
+    "id": "24",
+    "name": "Daniele Bigoni",
+    "type": "postdoc",
+    "email": "dabi",
+    "url": "daniele-bigoni",
+    "www": "http:\/\/www.mit.edu\/~dabi\/",
+    "bio": "Some of the buzzwords which describe my active scientific interests are\r\nuncertainty quantification, high-dimensional function approximation,\r\ntensor decomposition, inverse problems, data assimilation and control. I\r\nhave also some less active scientific interests, such as numerical\r\nmethods for PDEs and ODEs, mainly arising from mechanical systems and\r\nwater waves. More broadly I'm very keen to talk about applied\r\nmathematics, and at a certain extent of theoretical mathematics. I have\r\nalso a background in Computer Science. I spend my spare time exercising\r\n(mostly running lately), going to the theater, cooking good food and\r\noccasionally dancing tango."
+  },
+  {
+    "id": 3,
+    "name": "Tiangang Cui",
+    "type": "postdoc",
+    "email": "tcui",
+    "url": "tiangang-cui",
+    "bio": "I am interested in large scale inverse problems, data assimilation, spatial statistics, and applications in environmental fluids. My recent research focuses on scalable Markov chain Monte Carlo methods, goal-oriented model order reduction techniques, and methods for exploiting the intrinsic low dimensional structure of high dimensional probability distributions. I received my PhD in Engineering Science from the University of Auckland, New Zealand in 2010."
+  },
+  {
+    "id": "12",
+    "name": "Xun Huan",
+    "type": "postdoc",
+    "email": "xunhuan",
+    "url": "xun-huan",
+    "bio": "I am interested in uncertainty quantification, experimental design, Bayesian inference, model reduction, computational fluid dynamics, numerical methods and optimization. I love playing sports, especially ice hockey, ice skating, and pretty much any activity that takes place on ice! I am also interested in business law and entrepreneurship."
+  },
+  {
+    "id": "39",
+    "name": "Jayanth Jagalur",
+    "type": "postdoc",
+    "email": "jagalur",
+    "url": "jagalur",
+    "bio": "My research is broadly in the field of UQ and inverse problems. Other areas that interest me are, multi-scale methods, adaptivity, iterative solvers, and HPC.  Prior to joining the group I was at RPI, where I obtained an M.S. in Applied Mathematics and PhD. in Mechanical Engineering. My dissertation research involved developing variational multi-scale methods for deterministic and stochastic wave equations. Outside my work, I usually prefer to spend time in the outdoors, indulge in culinary exploits or continue my quest to learn music."
+  },
+  {
+    "id": "44",
+    "name": "Alexandre Marques",
+    "type": "postdoc",
+    "email": "noll",
+    "url": "florian-augustin",
+    "bio": ""
+  },
+  {
+    "id": "13",
+    "name": "Matthew Parno",
+    "type": "postdoc",
+    "email": "mparno",
+    "url": "matthew-parno",
+    "bio": "My work focuses on multiscale Bayesian inference for large scale problems arising in hydrology. Growing up I briefly lived in Oregon and New York but spent most of the time in Minnesota where I finished my last two years of high school at the University of Minnesota. After high school I worked as a raft guide before heading to Clarkson University where I balanced getting two degrees with whitewater kayaking and skiing."
+  },
+  {
+    "id": "15",
+    "name": "Raghav Aggarwal",
+    "type": "phd",
+    "email": "raghav_a",
+    "url": "raghav-aggarwal",
+    "bio": "I am interested inferring grain boundary crystallography-property relations from heterogeneous data, using Bayesian methods. In particular, my research seeks to understand the mechanisms of gallium penetration into aluminum, by developing physics-based models and performing both parameter inference and model selection, using experimental data collected across a range of scales. I received my bachelors degree from IIT, Delhi in 2012. During my time off work, I enjoy boxing, film photography and cooking."
+  },
+  {
+    "id": "9",
+    "name": "Andrew Davis",
+    "type": "phd",
+    "email": "davisad",
+    "url": "andrew-davis",
+    "bio": "I am interested in combining large-scale simulations of geophysical phenomena with inversion and inference algorithms, such as PDE constrained optimization and Markov chain Monte Carlo. Specifically, we are trying to quantify uncertainty in parameter reconstruction given model and data errors. I received my Bachelor's degree in Mathematics from Clarkson University in 2010 and my Masters in CDO from MIT in 2012. The picture was taken in Svalbard, Norway, an Arctic archipelago, where I spent a summer collecting glacier and fjord data."
+  },
+  {
+    "id": "16",
+    "name": "Chi Feng",
+    "type": "phd",
+    "email": "chifeng",
+    "url": "chi-feng",
+    "bio": "My research interests include optimal experimental design in the presence of model error and other topics in uncertainty quantification. I received my bachelor's degree in Physics from the California Institute of Technology. Outside of my work, I am interested in classical piano, photography, web design, and the culinary arts."
+  },
+  {
+    "id": 10,
+    "name": "Nikhil Galagali",
+    "type": "phd",
+    "email": "nikhilg1",
+    "url": "nikhil-galagali",
+    "bio": "My general research interests include Bayesian inference, Monte Carlo methods, and their applications to problems in chemical kinetics. Specifically, my current work focuses on the development of new model selection approaches for the elucidation of chemical reaction mechanisms. Prior to joining the UQ group, I received an SM degree from MIT and a B.Tech. degree from IIT Madras. Away from the lab, I enjoy music, playing squash, and running."
+  },
+  {
+    "id": 11,
+    "name": "Alex Gorodetsky",
+    "type": "phd",
+    "email": "gorada",
+    "url": "alex-gorodetsky",
+    "bio": "I am interested in function approximation, statistical inference, numerical methods, and fluid mechanics. I am currently working on discontinuity detection and function approximation for computational models. I grew up in Chicago and received my BSE in aerospace engineering from the University of Michigan. I am an avid sports fan and enjoy playing basketball."
+  },
+  {
+    "id": "14",
+    "name": "Alessio Spantini",
+    "type": "phd",
+    "email": "spantini",
+    "url": "alessio-spantini",
+    "bio": "My current research focuses in developing methods to enforce and efficiently exploit a low rank structure in the solution of a stochastic PDE via measure transformations (space-time stretching). Broadly speaking, I am interested in linear algebra, optimization, model reduction and UQ. I grew up in Italy and I graduated in Aerospace Engineering from Politecnico di Milano in July, 2011. In my free time I love sailing and jogging. I also hold a private pilot license."
+  },
+  {
+    "id": "17",
+    "name": "Zheng Wang",
+    "type": "phd",
+    "email": "zheng_w",
+    "url": "zheng-wang",
+    "bio": "My current research topic is the inversion and uncertainty qualification of reservoir geomechanics. In addition to this, I am interested in computational fluid dynamics, numerical methods, and optimization. I was born in China. I immigrated to Singapore and then to Canada. I graduated from University of Toronto in the Engineering Science program. Outside of work, I enjoy tennis and swimming."
+  },
+  {
+    "id": "47",
+    "name": "Ricardo Miguel Baptista",
+    "type": "sm",
+    "email": "rsb",
+    "url": "ricardo-miguel-baptista",
+    "bio": "\ufeffMy current research focuses on the optimization of coupled multi-physics systems. I am also interested in high-dimensional problems, compressive sensing, and machine learning techniques. I grew up in Toronto and graduated in 2015 from the Engineering Science program at the University of Toronto. Before joining MIT, I also worked in Flight Sciences at Bombardier Aerospace. In my free time, I enjoy swimming and traveling."
+  },
+  {
+    "id": "41",
+    "name": "Antoni Musolas",
+    "type": "sm",
+    "email": "musolas",
+    "url": "musolas",
+    "bio": "My current research is optimization under uncertainty. I am also interested in numerical methods and probability theory. I was born in Barcelona and I graduated in Civil and Mining Engineering from UPC-BarcelonaTech in July, 2013. Prior to joining MIT, I worked in Investment Banking. I am recipient of \"la Caixa\" scholarship. Outside of work, I enjoy playing soccer and swimming."
+  },
+  {
+    "id": 18,
+    "name": "Ingrid Berkelmans",
+    "type": "postdoc-alumn",
+    "bio": "Cambridge Chemical Technologies"
+  },
+  {
+    "id": 19,
+    "name": "Sonjoy Das",
+    "type": "postdoc-alumn",
+    "bio": "Univ. of Buffalo, Mechanical Engineering"
+  },
+  {
+    "id": 22,
+    "name": "Tarek El Moselhy",
+    "type": "postdoc-alumn",
+    "bio": "D. E. Shaw Group"
+  },
+  {
+    "id": 20,
+    "name": "Michalis Frangos",
+    "type": "postdoc-alumn",
+    "bio": "Schlumberger"
+  },
+  {
+    "id": 21,
+    "name": "Jinglai Li",
+    "type": "postdoc-alumn",
+    "bio": "Shanghai Jiaotong University"
+  },
+  {
+    "id": "4",
+    "name": "Antti Solonen",
+    "type": "postdoc-alumn",
+    "email": "solonen",
+    "url": "antti-solonen",
+    "bio": "Lappeenranta University of Technology and Eniram"
+  },
+  {
+    "id": 23,
+    "name": "Ankur Srivastava",
+    "type": "postdoc-alumn",
+    "bio": "GE Global Research"
+  },
+  {
+    "id": "5",
+    "name": "Luca Tosatto",
+    "type": "postdoc-alumn",
+    "email": "ltosatto",
+    "url": "luca-tosatto",
+    "bio": "Bridgewater Associates"
+  },
+  {
+    "id": "8",
+    "name": "Patrick Conrad",
+    "type": "phd-alumn",
+    "email": "prconrad",
+    "url": "patrick-conrad",
+    "bio": "University of Warwick"
+  },
+  {
+    "id": "46",
+    "name": "Xun Huan",
+    "type": "phd-alumn",
+    "email": "xunhuan",
+    "url": "",
+    "bio": "MIT"
+  },
+  {
+    "id": "43",
+    "name": "Matthew Parno",
+    "type": "phd-alumn",
+    "email": "mparno",
+    "url": "",
+    "bio": "MIT"
+  },
+  {
+    "id": "30",
+    "name": "Thomas Coles",
+    "type": "sm-alumn",
+    "email": "",
+    "url": "",
+    "bio": "MIT"
+  },
+  {
+    "id": "40",
+    "name": "Lucio Di Ciaccio",
+    "type": "sm-alumn",
+    "email": "ldc",
+    "url": "ldc",
+    "bio": "MIT"
+  },
+  {
+    "id": "32",
+    "name": "Naveen Krishnakumar",
+    "type": "sm-alumn",
+    "email": "",
+    "url": "",
+    "bio": "Grantham Mayo van Otterloo"
+  },
+  {
+    "id": "31",
+    "name": "Subhadeep Mitra",
+    "type": "sm-alumn",
+    "email": "",
+    "url": "",
+    "bio": "Citibank"
+  },
+  {
+    "id": "45",
+    "name": "Daniele Bigoni",
+    "type": "visitor-alumn",
+    "email": "",
+    "url": "",
+    "bio": "Technical University of Denmark"
+  },
+  {
+    "id": 25,
+    "name": "Ben Calderhead",
+    "type": "visitor-alumn",
+    "bio": "Imperial College London"
+  },
+  {
+    "id": 26,
+    "name": "Dominic Kohler",
+    "type": "visitor-alumn",
+    "bio": "Siemens AG"
+  },
+  {
+    "id": 27,
+    "name": "Jinglai Li",
+    "type": "visitor-alumn",
+    "bio": "Shanghai Jiaotong University"
+  },
+  {
+    "id": 28,
+    "name": "Lionel Mathelin",
+    "type": "visitor-alumn",
+    "bio": "LIMSI\/CNRS France"
+  },
+  {
+    "id": 29,
+    "name": "Faidra Stavropoulou",
+    "type": "visitor-alumn",
+    "bio": "TU Munich"
+  },
+  {
+    "id": "42",
+    "name": "Lara Welder",
+    "type": "visitor-alumn",
+    "email": "welder",
+    "url": "welder",
+    "bio": "RWTH Aachen"
+  },
+  {
+    "id": "36",
+    "name": "George Hansel",
+    "type": "undergrad-alumn",
+    "email": "",
+    "url": "",
+    "bio": "Google"
+  },
+  {
+    "id": 38,
+    "name": "Savithru Jayasinghe",
+    "type": "undergrad-alumn",
+    "bio": "Cambridge University"
+  },
+  {
+    "id": 35,
+    "name": "Hadi Kasab",
+    "type": "undergrad-alumn",
+    "bio": "American University of Beirut"
+  },
+  {
+    "id": 33,
+    "name": "Tomas Kogan",
+    "type": "undergrad-alumn",
+    "bio": "Cambridge University"
+  },
+  {
+    "id": 37,
+    "name": "Michael Lieu",
+    "type": "undergrad-alumn",
+    "bio": "MIT"
+  },
+  {
+    "id": 34,
+    "name": "Kevin Lim",
+    "type": "undergrad-alumn",
+    "bio": "Princeton University, Economics"
+  }
+]

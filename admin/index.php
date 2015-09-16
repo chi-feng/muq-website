@@ -83,7 +83,7 @@ else {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <?php
-        foreach ($types as $t) {
+        foreach ($object_types as $t) {
           printf('<li%s><a href="?a=view&t=%s">%s</a></li>',
             ($type == $t ? ' class="active"' : ''), $t, $t);
         }
