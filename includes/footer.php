@@ -8,7 +8,7 @@ if ($tpl['hide_sidebar'] == false) {
 <ul class="list-group">
 <li class="list-group-item">
 <h5>Test Branch</h5>
-<table class="table">
+<table class="table table-condensed">
 <thead>
 <tr><th>OS</th>
 <th>Compiler</th>
