@@ -5,8 +5,9 @@ if ($tpl['hide_sidebar'] == false) {
 <div class="col-md-3">
 <div class="panel panel-default">
 <div class="panel-heading">Test Status</div>
-<div class="panel-body">
-<h4>Develop Branch:</h4>
+<ul class="list-group">
+<li class="list-group-item">
+<h5>Test Branch</h5>
 <table class="table">
 <thead>
 <tr><th>OS</th>
@@ -41,7 +42,8 @@ if ($tpl['hide_sidebar'] == false) {
 </tr>
 </tbody>
 </table>
-</div>
+</li>
+</ul>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">Links</div>
