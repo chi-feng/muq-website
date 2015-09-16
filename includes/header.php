@@ -10,6 +10,13 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Arimo:400,700' type='text/css'>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <title><?php echo $tpl['site_name']; ?> | <?php echo $tpl['page_name']; ?> </title>
 </head>
 <body role="document">

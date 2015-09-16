@@ -7,7 +7,7 @@ if ($tpl['hide_sidebar'] == false) {
 <div class="panel-heading">Test Status</div>
 <ul class="list-group">
 <li class="list-group-item">
-<h5>Test Branch</h5>
+<h5>Develop Branch</h5>
 <table class="table table-condensed">
 <thead>
 <tr><th>OS</th>

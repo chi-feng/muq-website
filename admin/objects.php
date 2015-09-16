@@ -27,8 +27,7 @@ class Person extends Object {
       'type' => array('label' => 'Type', 'type' => 'person_type'),
       'email' => array('label' => 'Email (athena username)', 'type' => 'text'),
       'url' => array('label' => 'Photo URL', 'type' => 'text'),
-      'www' => array('label' => 'Website URL', 'type' => 'text'),
-      'bio' => array('label' => 'Bio', 'type' => 'textarea')
+      'www' => array('label' => 'Website URL', 'type' => 'text')
     );
     $this->sort_by = 'name';
     $this->list_field = array('name', 'type');

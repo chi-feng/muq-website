@@ -7,6 +7,9 @@
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+/* remove anchor links from nbconvert output. */
+a.anchor-link{display:none}
+
 body {
   font-family: "Arimo", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
