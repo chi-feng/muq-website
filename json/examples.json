@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Examples",
+    "topic": "intro",
+    "url": "examples\/ExampleBasics\/Intro",
+    "desc": "An introduction describing the format of MUQ's examples."
+  },
+  {
+    "id": "2",
+    "title": "Explanation of C++ Examples",
+    "topic": "intro",
+    "url": "examples\/ExampleBasics\/CppIntro",
+    "desc": "An introductory example describing how MUQ uses IPython to construct c++ examples."
+  }
+]

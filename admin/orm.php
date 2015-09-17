@@ -191,6 +191,23 @@ class Object {
         }
         $html[] = '</select></div>';
         break;
+        case 'example_type':
+        $html[] = sprintf('<div class="form-group"><label>%s</label>', $field['label']);
+        $html[] = sprintf('<select name="%s" class="form-control">', $name);
+        $values = array(
+          'pce' => 'Polynomial Chaos',
+          'mcmc' => 'Markov chain Monte Carlo',
+          'util' => 'MUQ Utilities',
+          'intro' => 'Introductory',
+          'opt' => 'Optimization',
+          'model' => 'Modelling'
+        );
+        foreach ($values as $val=>$label) {
+          $selected = ($val == $this->data[$name]) ? 'selected="selected"' : '';
+          $html[] = sprintf('<option value="%s" %s>%s</option>', $val, $selected, $label);
+        }
+        $html[] = '</select></div>';
+        break;
         case 'date':
         $html[] = sprintf('<div class="form-group"><label>%s</label><input type="text" name="%s" class="form-control" value="%s" /></div>',
           $field['label'], $name, $this->data[$name]);
