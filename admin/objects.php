@@ -66,7 +66,7 @@ class Example extends Object {
       'desc' => array('label' => 'Description', 'type' => 'text')
     );
     $this->sort_by = 'title';
-    $this->list_field = array('title', 'type');
+    $this->list_field = array('title', 'topic');
     parent::__construct($arg1, $arg2);
   }
 
