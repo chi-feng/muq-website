@@ -75,8 +75,22 @@ foreach ($tabs as $tab) {
 <div class="container" role="main">
 <div class="row">
 <?php
+
 if ($tpl['hide_sidebar'])
   echo '<div class="col-md-12">';
 else
   echo '<div class="col-md-9">';
+
+// breadcrumbs
+if ($tpl['tab'] != 'Home') {
+  echo '<ol class="breadcrumb">';
+  echo '<li><a href="/">Home</a></li>';
+  foreach ($tabs as $tab) {
+    if ($tab[0] == $tpl['tab'] && $tpl['page_name'] != $tpl['tab'])
+      echo '<li><a href="' . $tab[1] . '">' . $tab[0] .'</a></li>';
+  }
+  echo '<li class="active">' . $tpl['page_name'] . '</li>';
+  echo '</ol>';
+}
+
 ?>
