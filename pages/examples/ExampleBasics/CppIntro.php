@@ -2,6 +2,11 @@
 $tpl['page_name'] = 'CppIntro';
 $tpl['tab'] = 'Examples';
 ?>
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/examples">Examples</a></li>
+  <li class="active">C++ Examples in IPython</li>
+</ol>
 <h2 id="C++-Examples-in-IPython">C++ Examples in IPython</h2><p>MUQ is written primarily in c++ with some lightweight python wrappers.  Thus, we have many examples that are written solely in c++.  Unfortunately, this makes it slightly more difficult to use IPython notebooks to document our examples.  Instead of running the code in the notebook itself (like we do for Python examples), we construct a normal c++ file by concatenating code cells in the notebook.  This is facilitated by the IPython <a href="https://ipython.org/ipython-doc/dev/interactive/magics.html#cellmagic-writefile">%%writefile</a> magic command.  Once the file is created, we then compile and run it as you would with any c++ code.  This is possible using the <a href="https://ipython.org/ipython-doc/dev/interactive/magics.html#cellmagic-bash">%%bash</a> magic command.  These magic commands are visible in the example source, but in the MUQ website, they are removed for clarity; only the code is displayed on the website.</p>
 <h3 id="Hello-world-example">Hello world example</h3><p>To illustrate a c++ example, we use the standard "Hello World" example.</p>
 <p>First, we include the <code>iostream</code> header and open up the <code>std</code> namespace.</p>
