@@ -23,11 +23,9 @@ function people_filter($type) {
 <h2>Who are we?</h2>
 <p> MUQ is primarily developed by graduate students and postdocs in Professor Youssef Marzouk's uncertainty quantification group at MIT.  MUQ was originally started internally around 2011 to provide a usable outlet for our research.  Since then, we have grown substantially and now provide a much larger framework for developing new algorithms and coupling them with challenging scientific applications.  We are also part of the <a href="http://www.quest-scidac.org/">QUEST</a> SciDAC institute.</p>
 
-<div class="row">
 <h2>Core Team</h2>
 <?php people_filter('core'); ?>
 <h2>Contributors</h2>
 <?php people_filter('contributor'); ?>
-<div class="row">
-</div>
-<hr>
+
+<hr />
