@@ -1,6 +1,6 @@
 [
   {
-    "id": "24",
+    "id": "1",
     "name": "Daniele Bigoni",
     "type": "contributor",
     "email": "dabi",
@@ -9,7 +9,7 @@
     "bio": "Some of the buzzwords which describe my active scientific interests are\r\nuncertainty quantification, high-dimensional function approximation,\r\ntensor decomposition, inverse problems, data assimilation and control. I\r\nhave also some less active scientific interests, such as numerical\r\nmethods for PDEs and ODEs, mainly arising from mechanical systems and\r\nwater waves. More broadly I'm very keen to talk about applied\r\nmathematics, and at a certain extent of theoretical mathematics. I have\r\nalso a background in Computer Science. I spend my spare time exercising\r\n(mostly running lately), going to the theater, cooking good food and\r\noccasionally dancing tango."
   },
   {
-    "id": "13",
+    "id": "2",
     "name": "Matthew Parno",
     "type": "core",
     "email": "mparno",
@@ -17,7 +17,14 @@
     "bio": "My work focuses on multiscale Bayesian inference for large scale problems arising in hydrology. Growing up I briefly lived in Oregon and New York but spent most of the time in Minnesota where I finished my last two years of high school at the University of Minnesota. After high school I worked as a raft guide before heading to Clarkson University where I balanced getting two degrees with whitewater kayaking and skiing."
   },
   {
-    "id": "9",
+    "id": "3",
+    "name": "Xun Huan",
+    "type": "contributor",
+    "email": "xunhuan",
+    "url" : "xun-huan"
+  },
+  {
+    "id": "4",
     "name": "Andrew Davis",
     "type": "core",
     "email": "davisad",
@@ -25,7 +32,7 @@
     "bio": "I am interested in combining large-scale simulations of geophysical phenomena with inversion and inference algorithms, such as PDE constrained optimization and Markov chain Monte Carlo. Specifically, we are trying to quantify uncertainty in parameter reconstruction given model and data errors. I received my Bachelor's degree in Mathematics from Clarkson University in 2010 and my Masters in CDO from MIT in 2012. The picture was taken in Svalbard, Norway, an Arctic archipelago, where I spent a summer collecting glacier and fjord data."
   },
   {
-    "id": "16",
+    "id": "5",
     "name": "Chi Feng",
     "type": "contributor",
     "email": "chifeng",
@@ -33,7 +40,7 @@
     "bio": "My research interests include optimal experimental design in the presence of model error and other topics in uncertainty quantification. I received my bachelor's degree in Physics from the California Institute of Technology. Outside of my work, I am interested in classical piano, photography, web design, and the culinary arts."
   },
   {
-    "id": "8",
+    "id": "6",
     "name": "Patrick Conrad",
     "type": "core",
     "email": "prconrad",
@@ -41,7 +48,7 @@
     "bio": "University of Warwick"
   },
   {
-    "id": "17",
+    "id": "7",
     "name": "Zheng Wang",
     "type": "contributor",
     "email": "zheng_w",
