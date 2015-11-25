@@ -36,4 +36,4 @@ $tpl['tab'] = 'Home';
 <p>The quickest way to start MUQ'ing around is to check out our <a href="examples">examples</a>.  We are also working on more extensive tutorials, so stay tuned!</p>
 <p>More in depth documentation can also be found in our <a href="documentation">Doxygen generated documentation.</a></p>
 <h2>Where can I get help?</h2>
-<p>There are currently two ways to learn more about MUQ and get help. The first is to dig into the doxygen documentation listed <a href="documentation">here</a> and the second is to post a question to our Q&A site. A manual is also in the works for future inquiries.</p>
+<p>There are currently two ways to learn more about MUQ and get help. The first is to dig into the doxygen documentation listed <a href="documentation">here</a> and the second is to post a question to our <a href=http://muq.mit.edu/qa>Q&A site</a>. A manual is also in the works for future inquiries.</p>
