@@ -37,3 +37,7 @@ function example_filter($topic) {
 
 	<h2>Introductory Examples</h2>
 	<?php example_filter('intro'); ?>
+
+	<h2>Modelling Examples</h2>
+	<?php example_filter('model'); ?>
+

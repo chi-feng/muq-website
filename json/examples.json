@@ -12,5 +12,12 @@
     "topic": "intro",
     "url": "examples\/ExampleBasics\/CppIntro",
     "desc": "An introductory example describing how MUQ uses IPython to construct c++ examples."
+  },
+  {
+    "id": "3",
+    "title": "Simple one input model components",
+    "topic": "model",
+    "url": "examples\/Modelling\/example-1-python",
+    "desc": "This is basic example demonstrating how to create one input model components by creating a child of OneInputNoDerivModPiece.  The example is written in Python and uses a simple predator prey ODE for illustration."
   }
 ]
