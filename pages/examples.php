@@ -40,4 +40,7 @@ function example_filter($topic) {
 
 	<h2>Modelling Examples</h2>
 	<?php example_filter('model'); ?>
+	
+	<h2>Transport Map Examples</h2>
+	<?php example_filter('transport_maps'); ?>
 
