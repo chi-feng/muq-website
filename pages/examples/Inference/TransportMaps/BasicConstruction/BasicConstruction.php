@@ -3,7 +3,7 @@ $tpl['page_name'] = 'BasicConstruction';
 $tpl['tab'] = 'Examples';
 ?>
 <h1 id="Construction-of-Transport-Maps">Construction of Transport Maps</h1><p>Transport maps are nonlinear random variable transformations that can be used in many ways, including the acceleration of Bayesian inference and uncertainty quantification.  In many cases, a complicated non-Gaussian distribution (called the target distribution) can be transformed into a Gaussian distribution (or something that is approximately Gaussian) which is easier to sample.  This is illustrated in the figure below.</p>
-<p><img width="400" src="http://muq.mit.edu/pages/examples/Inference/TransportMaps/BasicConstruction/BasicConstruction/TransportMap.png"></p>
+<p><img width="400" src="http://muq.mit.edu/pages/examples/Inference/TransportMaps/BasicConstruction/TransportMap.png"></p>
 <p>Transport maps are primarily constructed in one of two ways; the appropriate choice depends on how the target distribution, $\pi(\theta)$, is characterized.  One approach uses target density evaluations (as in [1]) while the other approach requires only samples of the target density (as in [2] or [3]).  MUQ currently has capabilities for sample-based construction, which is illustrated in this example notebook.  For demonstration, we will use MUQ to construct a transport map from samples of a commonly used non-Gaussian distribution often called the "banana" or "boomerang" distribution.</p>
 <ol>
 <li>El Moselhy, T.A., &amp; Marzouk, Y.M. (2012). Bayesian inference with optimal maps. Journal of Computational Physics, 231(23), 7815-7850.</li>
@@ -166,7 +166,7 @@ where \left|\text{det}D\tilde{S}(\theta)\right| is the determinant of the map Ja
 }// end of int main()
 </pre>
 
-<h3 id="Compile-the-executable">Compile the executable</h3><p>See the <a href="http://muq.mit.edu/pages/examples/Inference/TransportMaps/BasicConstruction/BasicConstruction/CMakeLists.txt">CMakeLists.txt</a> file for more details.</p>
+<h3 id="Compile-the-executable">Compile the executable</h3><p>See the <a href="http://muq.mit.edu/pages/examples/Inference/TransportMaps/BasicConstruction/CMakeLists.txt">CMakeLists.txt</a> file for more details.</p>
 <pre class="prettyprint">
 cd build; cmake ../ &gt; BuildLog.txt; make; cd ../
 </pre>
