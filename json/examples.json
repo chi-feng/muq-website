@@ -26,5 +26,12 @@
     "topic": "transport_maps",
     "url": "examples\/Inference\/TransportMaps\/BasicConstruction\/BasicConstruction",
     "desc": "This example provides an initial overview of how to construction a transport map using samples of the target distribution."
+  }, 
+  {
+    "id":"5",
+    "title": "Multiscale Inference",
+    "topic": "transport_maps",
+    "url": "examples\/Inference\/TransportMaps\/SmallMultiscale\/SmallMultiscale",
+    "desc": "An illustration of multiscale Bayesian inference using transport maps to decouple the scales and MCMC to sample the coarsescale posterior."
   }  
 ]
