@@ -4,34 +4,39 @@
     "title": "Introduction to Examples",
     "topic": "intro",
     "url": "examples\/ExampleBasics\/Intro",
-    "desc": "An introduction describing the format of MUQ's examples."
+    "desc": "An introduction describing the format of MUQ's examples.",
+    "language":"Python"
   },
   {
     "id": "2",
     "title": "Explanation of C++ Examples",
     "topic": "intro",
     "url": "examples\/ExampleBasics\/CppIntro",
-    "desc": "An introductory example describing how MUQ uses IPython to construct c++ examples."
+    "desc": "An introductory example describing how MUQ uses IPython to construct c++ examples.",
+    "language":"c++"
   },
   {
     "id": "3",
     "title": "Simple one input model components",
     "topic": "model",
     "url": "examples\/Modelling\/example-1-python",
-    "desc": "This is basic example demonstrating how to create one input model components by creating a child of OneInputNoDerivModPiece.  The example is written in Python and uses a simple predator prey ODE for illustration."
+    "desc": "This is basic example demonstrating how to create one input model components by creating a child of OneInputNoDerivModPiece.  The example is written in Python and uses a simple predator prey ODE for illustration.",
+    "language":"c++"
   },
   {
     "id":"4",
     "title": "Basic transport map construction",
     "topic": "transport_maps",
     "url": "examples\/Inference\/TransportMaps\/BasicConstruction\/BasicConstruction",
-    "desc": "This example provides an initial overview of how to construction a transport map using samples of the target distribution."
+    "desc": "This example provides an initial overview of how to construction a transport map using samples of the target distribution.",
+    "language":"c++"
   }, 
   {
     "id":"5",
     "title": "Multiscale Inference",
     "topic": "transport_maps",
     "url": "examples\/Inference\/TransportMaps\/SmallMultiscale\/SmallMultiscale",
-    "desc": "An illustration of multiscale Bayesian inference using transport maps to decouple the scales and MCMC to sample the coarsescale posterior."
+    "desc": "An illustration of multiscale Bayesian inference using transport maps to decouple the scales and MCMC to sample the coarsescale posterior.",
+    "language":"c++"
   }  
 ]

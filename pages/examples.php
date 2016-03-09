@@ -23,6 +23,7 @@ function example_filter($topic) {
   foreach($examples as $ex) {
     if ($ex['topic'] == $topic) {
       echo '<a href="'.$ex['url'].'" class="list-group-item">';
+      echo '<span class="badge">'.$ex['language'].'</span>';
       echo '<h4 class="list-group-item-heading">'.$ex['title'].'</h4>';
       echo '<p class="list-group-item-text">'.$ex['desc'].'</p>';
       echo '</a>';
