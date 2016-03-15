@@ -21,6 +21,7 @@ MathJax.Hub.Config({
 </head>
 <body role="document">
 <!-- custom header -->
+<?php include_once("analyticstracking.php") ?>
 <div id="header">
 <div id="title">
 <div id="title-wrap">
