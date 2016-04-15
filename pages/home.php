@@ -32,8 +32,10 @@ $tpl['tab'] = 'Home';
 <p>For more information on installing MUQ, see our installation guide. During this command, cmake will generate a make file, which can now be run as usual:</p>
 <pre>make -j4 install</pre>
 <p>The <code>-j4</code> is an option specifying that make can use 4 threads for parallel compilation.</p>
-<h2>Learning how to use MUQ</h2>
-<p>The quickest way to start MUQ'ing around is to check out our <a href="examples">examples</a>.  We are also working on more extensive tutorials, so stay tuned!</p>
-<p>More in depth documentation can also be found in our <a href="documentation">Doxygen generated documentation.</a></p>
-<h2>Where can I get help?</h2>
-<p>There are currently two ways to learn more about MUQ and get help. The first is to dig into the doxygen documentation listed <a href="documentation">here</a> and the second is to post a question to our <a href=http://muq.mit.edu/qa>Q&A site</a>. A manual is also in the works for future inquiries.</p>
+<h2>How can I learn how to use MUQ?</h2>
+<ul>
+<li> Look at the examples listed on our <a href="examples">examples page</a>. </li>
+<li> Try out some of our examples by launching a temporary <a href=http://muq.mit.edu:8000>interactive MUQ session</a>. No installation necessary!</li>
+<li> Check out the doxygen documentation <a href="documentation">here</a>.  </li>
+<li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&A site</a>. </li>
+</ul>
