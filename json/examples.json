@@ -20,7 +20,7 @@
     "title": "Simple one input model components",
     "topic": "model",
     "url": "examples\/Modelling\/example-1-python",
-    "desc": "This is basic example demonstrating how to create one input model components by creating a child of OneInputNoDerivModPiece.  The example is written in Python and uses a simple predator prey ODE for illustration.",
+    "desc": "This is basic example demonstrating how to create a one input model components by creating a child of OneInputNoDerivModPiece.  The example is written in Python and uses a simple predator prey ODE for illustration.",
     "language":"Python"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Basic transport map construction",
     "topic": "transport_maps",
     "url": "examples\/Inference\/TransportMaps\/BasicConstruction\/BasicConstruction",
-    "desc": "This example provides an initial overview of how to construction a transport map using samples of the target distribution.",
+    "desc": "This example provides an initial overview of how to construct a transport map using samples of a target distribution.",
     "language":"c++"
   }, 
   {
@@ -36,7 +36,7 @@
     "title": "Multiscale Inference",
     "topic": "transport_maps",
     "url": "examples\/Inference\/TransportMaps\/SmallMultiscale\/SmallMultiscale",
-    "desc": "An illustration of multiscale Bayesian inference using transport maps to decouple the scales and MCMC to sample the coarsescale posterior.",
+    "desc": "An illustration of multiscale Bayesian inference using transport maps.  Transport maps are used to decouple the coarse and fine scales while MCMC is used to sample the coarse posterior.",
     "language":"c++"
   }  
 ]
