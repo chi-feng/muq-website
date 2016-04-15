@@ -32,7 +32,7 @@ Linking CXX executable HelloWorld
 
 </pre>
 
-<h4 id="Running-the-executable">Running the executable</h4><p>Not that we've compiled the executable, we can run the executable and have our computer to greet the world.</p>
+<h4 id="Running-the-executable">Running the executable</h4><p>Not that we've compiled the executable, we can run the executable to greet the world!</p>
 <pre class="prettyprint">
 build/HelloWorld
 </pre>

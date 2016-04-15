@@ -21,7 +21,7 @@
     "topic": "model",
     "url": "examples\/Modelling\/example-1-python",
     "desc": "This is basic example demonstrating how to create one input model components by creating a child of OneInputNoDerivModPiece.  The example is written in Python and uses a simple predator prey ODE for illustration.",
-    "language":"c++"
+    "language":"Python"
   },
   {
     "id":"4",
