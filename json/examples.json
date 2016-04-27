@@ -38,5 +38,13 @@
     "url": "examples\/Inference\/TransportMaps\/SmallMultiscale\/SmallMultiscale",
     "desc": "An illustration of multiscale Bayesian inference using transport maps.  Transport maps are used to decouple the coarse and fine scales while MCMC is used to sample the coarse posterior.",
     "language":"c++"
+  },  
+  {
+    "id":"6",
+    "title": "Overview of MCMC methods",
+    "topic": "mcmc",
+    "url": "examples\/Inference\/MCMC\/MCMC-Overview\/MCMC-Overview",
+    "desc": "Many samples of constructing different MCMC algorithms with MUQ.  A wide variety of methods are given, ranging from simple Random walk proposals to delayed rejection, adaptive Metropolis, and transport-map acceleration are provided.",
+    "language":"c++"
   }  
 ]
