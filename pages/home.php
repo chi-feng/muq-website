@@ -37,5 +37,5 @@ $tpl['tab'] = 'Home';
 <li> Look at the examples listed on our <a href="examples">examples page</a>. </li>
 <li> Try out some of our examples by launching a temporary <a href=http://muq.mit.edu:8000>interactive MUQ session</a>. No installation necessary!</li>
 <li> Check out the doxygen documentation <a href="documentation">here</a>.  </li>
-<li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&A site</a>. </li>
+<li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&amp;A site</a>. </li>
 </ul>
