@@ -3,7 +3,7 @@ $tpl['page_name'] = 'Home';
 $tpl['tab'] = 'Home';
 ?>
 <h2>What is MUQ?</h2>
-<p>In a nutshell, MUQ is a collection of tools for constructing models and a collection of UQ-orientated algorithms for working on those model. Our goal is to provide an easy and clean way to set up and efficiently solve uncertainty quantification problems. On the modelling side, we have a suite of tools for:</p>
+<p>In a nutshell, MUQ is a collection of tools for constructing models and a collection of uncertainty quantification (UQ)–focused algorithms for working on those models. Our goal is to provide an easy and clean way to set up and efficiently solve UQ problems. On the modelling side, we have a suite of tools for:</p>
 <ul>
 <li>Combining many simple model components into a single sophisticated model.</li>
 <li>Propagating derivative information through sophisticated models.</li>
@@ -37,5 +37,5 @@ $tpl['tab'] = 'Home';
 <li> Look at the examples listed on our <a href="examples">examples page</a>. </li>
 <li> Try out some of our examples by launching a temporary <a href=http://muq.mit.edu:8000>interactive MUQ session</a>. No installation necessary!</li>
 <li> Check out the doxygen documentation <a href="documentation">here</a>.  </li>
-<li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&A site</a>. </li>
+<li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&amp;A site</a>. </li>
 </ul>
