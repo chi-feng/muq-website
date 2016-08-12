@@ -46,5 +46,13 @@
     "url": "examples\/Inference\/MCMC\/MCMC-Overview\/MCMC-Overview",
     "desc": "Many samples of constructing different MCMC algorithms with MUQ.  A wide variety of methods are given, ranging from simple Random walk proposals to delayed rejection, adaptive Metropolis, and transport-map acceleration are provided.",
     "language":"c++"
+  },
+  {
+    "id":"7",
+    "title": "Rosenbrock Function",
+    "topic": "optimization",
+    "url": "examples\/Optimization\/Rosenbrock\/RosenbrockOpt",
+    "desc": "An illustration of using MUQ for unconstrained optimization of the Rosenbrock function.",
+    "language": "c++"
   }  
 ]
