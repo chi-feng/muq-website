@@ -49,11 +49,21 @@ if ($tpl['hide_sidebar'] == false) {
 <div class="panel-heading">Links</div>
 <div class="panel-body">
 <ul>
-<li><a href="https://bitbucket.org/mituq/muq">MUQ on Bitbucket</li>
-<li><a href="http://uqgroup.mit.edu/">UQ Group Website</li>
+<li><a href="https://bitbucket.org/mituq/muq">MUQ on Bitbucket</a></li>
+<li><a href="http://uqgroup.mit.edu/">UQ Group Website</a></li>
 </ul>
 </div>
 </div>
+<div class="panel panel-default">
+  <div class="panel-heading">Acknowledgements</div>
+  <div class="panel-body">
+    <img src="images/nsf_logo.gif" alt="NSF Logo" hspace="5" vspace="10" align="left" height="80" width="80"> This material is based upon work supported by the National Science Foundation under Grant No. 1550487.</br></br>
+    <img src="images/doe_logo.png" alt="DOE Logo" hspace="7" vspace="5" align="left" height="75" width="75"> This work was supported by the DOE Office of Science through the <a href="http://www.quest-scidac.org/">QUEST SciDAC Institute.</a></br></br>
+
+    Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+  </div>
+</div>
+
 </div>
 <?php } ?>
 </div> <!-- .row -->
