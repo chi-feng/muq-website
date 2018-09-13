@@ -38,10 +38,12 @@ function example_filter($topic) {
 <div>
 
 <h2>Interactive Examples</h2>
-<p>We have adapted the <a href="https://github.com/jupyter/tmpnb">tmpnb</a> to provide temporary web sessions where you can explore MUQ's capabilities without having to install MUQ on your local machine.  Click the button below to try it out!</p>
+<p>We are using <a href="https://jupyterhub.readthedocs.io/en/stable/">JupyterHub</a> to provide temporary <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> sessions where you can explore MUQ's capabilities without having to install MUQ on your local machine.  Click the button below to try it out!</p>
 
 <button type="button" class="btn btn-primary btn-block" onclick="location.href='http://muq.mit.edu:8000';">Click here to launch a new session.</button>
 
+<p> Note that MUQ is in the midst of a significant refactor into a new "MUQ2" library that is more user friendly and powerful.  These JupyterLab sessions are using the new MUQ2 library whereas the examples below are for MUQ1.  We are in the process of updating this page.</p> 
+<br>
 <br>
 <p>
 <h4>A few other notes about the interactive sessions:</h4>
