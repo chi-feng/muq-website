@@ -9,7 +9,7 @@ MUQ is in the middle of a transition from the original "MUQ1" into a more user f
 <li>MUQ2 Documentation:</li>
 <ul>
 <li>Doxygen documentation can be found at <a href="https://mituq.bitbucket.io/">mituq.bitbucket.io</a></li>
-<ul>
+</ul>
 <li>MUQ1 Documentation:</li>
 <ul>
 <li>Doxygen documentation for the <b>develop</b> branch can be found at <a href="http://muq.mit.edu/develop-docs/">muq.mit.edu/develop-docs</a></li>
