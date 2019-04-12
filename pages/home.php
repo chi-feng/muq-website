@@ -21,21 +21,22 @@ $tpl['tab'] = 'Home';
 <li>Regression (including Gaussian process regression)</li>
 </ul>
 <h2>Installation</h2>
-<h3>Getting the source</h3>
-<p>The first step is to download and install MUQ. Currently, the best way to get started is by checking our our git repository from this bitbucket site. Go to the folder you where you want to keep the MUQ source code, and use:</p>
-<pre>git clone https://bitbucket.org/mituq/muq.git</pre>
-<p>If you want the latest (but possibly unstable) version of MUQ, you can clone our <code>develop</code> branch:</p>
-<pre>git clone -b develop https://bitbucket.org/mituq/muq.git</pre>
+<h3>Using Docker</h3>
+<pre>docker pull mparno/muq2</pre>
+<pre>docker run -it --rm mparno/muq2 bash</pre>
+<h3>From source</h3>
+<p>Currently, the best way to get started is by checking out our git repository on bitbucket. Go to the folder you where you want to keep the MUQ source code, and use:</p>
+<pre>git clone https://bitbucket.org/mituq/muq2.git</pre>
 <h3>Compiling the source</h3>
-<p>Now that you have the source, you need to compile and install MUQ. In a very basic installation of MUQ, all you need to do is specify an installation prefix. To keep all of the installed MUQ files together, we suggest using something other than /usr/local for the prefix. A typically choice may be <code>~/MUQ_INSTALL</code>. For this basic installation of MUQ, change into <code>muq/MUQ/build/</code> and type:</p>
+<p>Now that you have the source, you need to compile and install MUQ. In a very basic installation of MUQ, all you need to do is specify an installation prefix. To keep all of the installed MUQ files together, we suggest using something other than /usr/local for the prefix. A typically choice may be <code>~/Installations/MUQ_INSTALL</code>. For this basic installation of MUQ, cd into <code>muq2/build/</code> and type:</p>
 <pre>cmake -DCMAKE_INSTALL_PREFIX=/your/install/directory ../</pre>
-<p>For more information on installing MUQ, see our installation guide. During this command, cmake will generate a make file, which can now be run as usual:</p>
+<p>During this command, cmake will generate a make file, which can now be run as usual:</p>
 <pre>make -j4 install</pre>
 <p>The <code>-j4</code> is an option specifying that make can use 4 threads for parallel compilation.</p>
 <h2>How can I learn how to use MUQ?</h2>
 <ul>
 <li> Look at the examples listed on our <a href="examples">examples page</a>. </li>
 <li> Try out some of our examples by launching a temporary <a href=http://muq.mit.edu:8000>interactive MUQ session</a>. No installation necessary!</li>
-<li> Check out the doxygen documentation <a href="documentation">here</a>.  </li>
+<li> Check out the doxygen documentation <a href="https://mituq.bitbucket.io/">here</a>.  </li>
 <li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&amp;A site</a>. </li>
 </ul>
