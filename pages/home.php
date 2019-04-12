@@ -7,7 +7,6 @@ $tpl['tab'] = 'Home';
 <ul>
 <li>Combining many simple model components into a single sophisticated model.</li>
 <li>Propagating derivative information through sophisticated models.</li>
-<li>Solving systems of partial differential equations (via <a href="http://libmesh.github.io/">LibMesh</a>)</li>
 <li>Integrating ordinary differential equations and differential algebraic equations (via <a href="https://computation.llnl.gov/casc/sundials/main.html">Sundials</a>)</li>
 </ul>
 <p>Furthermore, on the algorithmic side, we have tools for</p>
@@ -17,7 +16,6 @@ $tpl['tab'] = 'Home';
 <li>Computing Karhunen-Loeve expansions</li>
 <li>Building optimal transport maps</li>
 <li>Solving nonlinear constrained optimization problems (both internally and through <a href="http://ab-initio.mit.edu/wiki/index.php/NLopt">NLOPT</a>)</li>
-<li>Solving robust optimization problems</li>
 <li>Regression (including Gaussian process regression)</li>
 </ul>
 <h2>Installation</h2>
