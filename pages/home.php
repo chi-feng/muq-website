@@ -1,7 +1,60 @@
 <?php
 $tpl['page_name'] = 'Home';
 $tpl['tab'] = 'Home';
+
+if (isset($_GET['message'])) {
+  // Here, we use single quotes for PHP and double quotes for JavaScript
+echo '<script type="text/javascript"> console.log("Hello World!")</script>';
+//echo '<script type="text/javascript"> $(document).ready(function(){ $("#slackDuplicateEmailModal").modal('show'); });</script>';
+
+}else{
+  echo '<script type="text/javascript"> console.log("Message not set!")</script>';
+}
+
+
+
 ?>
+
+<?php
+if (isset($_GET['message'])){
+
+  $message = $_GET['message'];
+  if(strcmp($message, 'DuplicateEmail')==0){
+?>
+
+<script>
+    $(document).ready(function(){
+        $("#slackDuplicateEmailModal").modal('show');
+    });
+</script>
+
+<?php
+}else if(strcmp($message, 'SuccessfulInvite')==0){
+?>
+
+<script>
+    $(document).ready(function(){
+        $("#slackSuccessfulModal").modal('show');
+    });
+</script>
+
+<?php
+}else{
+?>
+<script>
+    $(document).ready(function(){
+        $("#slackUnsuccessfulModal").modal('show');
+    });
+</script>
+
+<?php
+}
+}
+?>
+
+
+
+
 <h2>What is MUQ?</h2>
 <p>In a nutshell, MUQ is a collection of tools for constructing models and a collection of uncertainty quantification (UQ)–focused algorithms for working on those models. Our goal is to provide an easy and clean way to set up and efficiently solve UQ problems. On the modelling side, we have a suite of tools for:</p>
 <ul>
