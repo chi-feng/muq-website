@@ -6,7 +6,7 @@ if ($tpl['hide_sidebar'] == false) {
 ?>
 <div class="col-md-3">
   <div class="panel panel-default">
-  <div class="panel-heading">MUQ is on Slack!</div>
+  <div class="panel-heading"><img height=30px src="images/Slack_Mark_Web.png" alt="Slack LOGO"> MUQ is on Slack! </div>
 
   <ul class="list-group">
   <li class="list-group-item">
