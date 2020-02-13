@@ -1,5 +1,4 @@
 <?php
-$tpl['page_name'] = 'Slack Invitation';
 
 require_once ( 'sendSlackInvite.php' );
 

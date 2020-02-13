@@ -90,9 +90,9 @@ function sendForm(){
       $replyRaw = curl_exec($ch);
       $reply=json_decode($replyRaw,true);
       if($reply['ok']==false) {
-        return  'SuccessfulInvite';
+        return  'FailedInvite';
       }else{
-        return 'FailedInvite';
+        return 'SuccessfulInvite';
       }
 
       // close connection
