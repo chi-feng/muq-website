@@ -128,7 +128,7 @@ if ($tpl['hide_sidebar'] == false) {
   <div class="panel-heading">Acknowledgments</div>
   <div class="panel-body">
     <img src="images/nsf_logo.gif" alt="NSF Logo" hspace="5" vspace="15" align="left" height="80" width="80"> This material is based upon work supported by the National Science Foundation under Grant No. 1550487.</br></br>
-    <img src="images/doe_logo.png" alt="DOE Logo" hspace="7" vspace="5" align="left" height="75" width="75"> This work was supported by the DOE Office of Science through the <a href="http://www.quest-scidac.org/">QUEST SciDAC Institute.</a></br></br>
+    <img src="images/doe_logo.png" alt="DOE Logo" hspace="7" vspace="5" align="left" height="75" width="75"> This work was supported by the DOE Office of Science through the <a href="https://fastmath-scidac.llnl.gov/">QUEST and FastMath SciDAC Institutes.</a></br></br>
 
     Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
   </div>

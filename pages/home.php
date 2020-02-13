@@ -89,5 +89,5 @@ if (isset($_GET['message'])){
 <li> Look at the examples listed on our <a href="examples">examples page</a>. </li>
 <li> Try out some of our examples by launching a temporary <a href=http://muq.mit.edu:8000>interactive MUQ session</a>. No installation necessary!</li>
 <li> Check out the doxygen documentation <a href="https://mituq.bitbucket.io/">here</a>.  </li>
-<li> Post a question to fellow users in our <a href=http://muq.mit.edu/qa>Q&amp;A site</a>. </li>
+<li> Join our slack workspace and ask a question. </li>
 </ul>
