@@ -57,8 +57,7 @@ if (!array_key_exists('tab', $tpl))
 $tabs = array(
   array('Home', '/home'),
   array('Examples', '/examples'),
-  array('Documentation', '/documentation'),
-  array('About','/about')
+  array('Documentation', '/documentation')
 );
 
 foreach ($tabs as $tab) {
