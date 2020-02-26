@@ -109,9 +109,7 @@ if ($tpl['hide_sidebar'] == false) {
 <ul class="list-group">
 <li class="list-group-item">
 <h5>Master Branch</h5>
-<a href="https://bitbucket.org/mituq/muq2/addon/pipelines/home#!/results/branch/master/page/1"><img alt="Test Status" src="https://img.shields.io/bitbucket/pipelines/mituq/muq2/master.svg"></a>
-<h5>CI Branch</h5>
-<a href="https://bitbucket.org/mituq/muq2/addon/pipelines/home#!/results/branch/ci/page/1"><img alt="Test Status" src="https://img.shields.io/bitbucket/pipelines/mituq/muq2/ci.svg"></a>
+<a href='https://acdl.mit.edu/csi/job/MUQ2_Nightly/'><img src='https://acdl.mit.edu/csi/buildStatus/icon?job=MUQ2_Nightly'></a>
 </li>
 </ul>
 </div>
