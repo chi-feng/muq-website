@@ -108,7 +108,6 @@ if ($tpl['hide_sidebar'] == false) {
 <div class="panel-heading">Test Status</div>
 <ul class="list-group">
 <li class="list-group-item">
-<h5>Master Branch</h5>
 <a href='https://acdl.mit.edu/csi/job/MUQ2_Nightly/'><img src='https://acdl.mit.edu/csi/buildStatus/icon?job=MUQ2_Nightly'></a>
 </li>
 </ul>
